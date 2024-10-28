@@ -1,2 +1,6 @@
 def unique_strings(words):
-    pass
+    if words != "":
+        return set(words)
+
+    else:
+        return {}
