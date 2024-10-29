@@ -9,7 +9,7 @@ class TP10SetTest(unittest.TestCase):
         self.assertEqual(result1, {'h', 'e', 'l', 'o'})
 
         result = ex1.unique_strings("")
-        self.assertEqual(result, {})
+        self.assertEqual(result, set())
 
 
 if __name__ == '__main__':
